@@ -1,0 +1,21 @@
+{
+  "name": "osirispornready",
+  "version": "1.0.0",
+  "description": "the frontend part of osiris project(BFF structure)",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm run install:ng && npm run install:node",
+    "install:ng": "cd ./src/osiris-frontend && npm install",
+    "install:node": "cd ./src/osiris-server && npm install",
+    "start": "concurrently \"npm run start:ng\" \"npm run start:node\"",
+    "start:ng": "cd ./src/osiris-frontend && npm start",
+    "start:node": "cd ./src/osiris-server && npm start",
+    "build": "cd ./src/osiris-frontend && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ash",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.3.0"
+  }
+}

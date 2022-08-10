@@ -1,0 +1,6 @@
+[submodule "src/osiris-server"]
+	path = src/osiris-server
+	url = git@github.com:OsirisPornReady/osiris-server.git
+[submodule "src/osiris-frontend"]
+	path = src/osiris-frontend
+	url = git@github.com:OsirisPornReady/osiris-frontend.git
