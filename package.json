@@ -8,6 +8,7 @@
     "install:ng": "cd ./src/osiris-frontend && npm install",
     "install:node": "cd ./src/osiris-server && npm install",
     "start": "concurrently \"npm run start:ng\" \"npm run start:node\"",
+    "start:prod": "npm run build && npm run start:node",
     "start:ng": "cd ./src/osiris-frontend && npm start",
     "start:node": "cd ./src/osiris-server && npm start",
     "build": "cd ./src/osiris-frontend && npm run build",
