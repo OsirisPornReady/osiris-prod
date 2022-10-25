@@ -11,7 +11,6 @@
     "start:ng": "cd ./src/osiris-frontend && npm start",
     "start:node": "cd ./src/osiris-server && npm start",
     "build": "cd ./src/osiris-frontend && npm run build",
-    "reset:config": "node config.js",
     "deploy": "npm run build && npm run start:node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
